@@ -38,6 +38,8 @@ namespace LookUpEdit_Dictionary {
             riLookUp.PopulateColumns();
             riLookUp.Columns["Value"].Caption = "Name";
 
+            gridControl1.RepositoryItems.Add(riLookUp);
+
             gridView1.Columns["CategoryID"].ColumnEdit = riLookUp;
         }
     }
