@@ -8,6 +8,11 @@
 
 This example shows how to set up an in-place lookup editor when its lookup data source is a Dictionary<<em>simpleDataType</em>, <em>simpleDataType</em>> object.<br><br>In the example, integer values of the CategoryID grid column are edited using an in-place LookUpEdit control (<a href="https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit">RepositoryItemLookUpEdit</a>). The lookup data source is a Dictionary<int, string> object that associates category IDs with category names.
 
+
+<b>See also:</b>
+
+[DevExpress WinForms Troubleshooting - LookUp Editors](https://go.devexpress.com/CheatSheets_WinForms_Examples_T929986.aspx)
+
 <br/>
 
 
